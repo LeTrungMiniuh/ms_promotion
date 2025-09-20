@@ -1,6 +1,6 @@
-package com.ticketsystem.promotion.domain;
+package com.ridehub.promotion.domain;
 
-import static com.ticketsystem.promotion.domain.AssertUtils.bigDecimalCompareTo;
+import static com.ridehub.promotion.domain.AssertUtils.bigDecimalCompareTo;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class PercentOffTotalAsserts {

@@ -1,10 +1,10 @@
-package com.ticketsystem.promotion.domain;
+package com.ridehub.promotion.domain;
 
-import static com.ticketsystem.promotion.domain.BuyNGetMFreeTestSamples.*;
-import static com.ticketsystem.promotion.domain.PromotionTestSamples.*;
+import static com.ridehub.promotion.domain.BuyNGetMFreeTestSamples.*;
+import static com.ridehub.promotion.domain.PromotionTestSamples.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.ticketsystem.promotion.web.rest.TestUtil;
+import com.ridehub.promotion.web.rest.TestUtil;
 import org.junit.jupiter.api.Test;
 
 class BuyNGetMFreeTest {

@@ -1,11 +1,11 @@
-package com.ticketsystem.promotion;
+package com.ridehub.promotion;
 
-import com.ticketsystem.promotion.config.AsyncSyncConfiguration;
-import com.ticketsystem.promotion.config.EmbeddedKafka;
-import com.ticketsystem.promotion.config.EmbeddedRedis;
-import com.ticketsystem.promotion.config.EmbeddedSQL;
-import com.ticketsystem.promotion.config.JacksonConfiguration;
-import com.ticketsystem.promotion.config.TestSecurityConfiguration;
+import com.ridehub.promotion.config.AsyncSyncConfiguration;
+import com.ridehub.promotion.config.EmbeddedKafka;
+import com.ridehub.promotion.config.EmbeddedRedis;
+import com.ridehub.promotion.config.EmbeddedSQL;
+import com.ridehub.promotion.config.JacksonConfiguration;
+import com.ridehub.promotion.config.TestSecurityConfiguration;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -1,6 +1,6 @@
-package com.ticketsystem.promotion.config;
+package com.ridehub.promotion.config;
 
-import com.ticketsystem.promotion.IntegrationTest;
+import com.ridehub.promotion.IntegrationTest;
 import java.util.Comparator;
 import org.junit.jupiter.api.ClassDescriptor;
 import org.junit.jupiter.api.ClassOrderer;

@@ -1,4 +1,4 @@
-package com.ticketsystem.promotion.repository.timezone;
+package com.ridehub.promotion.repository.timezone;
 
 import jakarta.persistence.*;
 import java.io.Serializable;

@@ -1,8 +1,8 @@
-package com.ticketsystem.promotion.service.dto;
+package com.ridehub.promotion.service.dto;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.ticketsystem.promotion.web.rest.TestUtil;
+import com.ridehub.promotion.web.rest.TestUtil;
 import org.junit.jupiter.api.Test;
 
 class ConditionByRouteDTOTest {

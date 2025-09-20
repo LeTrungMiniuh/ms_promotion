@@ -1,4 +1,4 @@
-package com.ticketsystem.promotion.config;
+package com.ridehub.promotion.config;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

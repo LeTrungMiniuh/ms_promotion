@@ -12,7 +12,7 @@
     "jhipsterVersion": "8.11.0",
     "lastLiquibaseTimestamp": 1758301165000,
     "messageBroker": "kafka",
-    "packageName": "com.ticketsystem.promotion",
+    "packageName": "com.ridehub.promotion",
     "prodDatabaseType": "mysql",
     "serverPort": "8084",
     "serviceDiscoveryType": "consul"

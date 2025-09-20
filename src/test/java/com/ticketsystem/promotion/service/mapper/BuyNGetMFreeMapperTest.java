@@ -1,7 +1,7 @@
-package com.ticketsystem.promotion.service.mapper;
+package com.ridehub.promotion.service.mapper;
 
-import static com.ticketsystem.promotion.domain.BuyNGetMFreeAsserts.*;
-import static com.ticketsystem.promotion.domain.BuyNGetMFreeTestSamples.*;
+import static com.ridehub.promotion.domain.BuyNGetMFreeAsserts.*;
+import static com.ridehub.promotion.domain.BuyNGetMFreeTestSamples.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

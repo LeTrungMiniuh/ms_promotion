@@ -1,4 +1,4 @@
-package com.ticketsystem.promotion.web.rest.errors;
+package com.ridehub.promotion.web.rest.errors;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;

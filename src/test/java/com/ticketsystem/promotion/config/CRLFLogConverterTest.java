@@ -1,4 +1,4 @@
-package com.ticketsystem.promotion.config;
+package com.ridehub.promotion.config;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;

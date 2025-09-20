@@ -1,8 +1,8 @@
-package com.ticketsystem.promotion.web.rest;
+package com.ridehub.promotion.web.rest;
 
-import static com.ticketsystem.promotion.domain.PercentOffTotalAsserts.*;
-import static com.ticketsystem.promotion.web.rest.TestUtil.createUpdateProxyForBean;
-import static com.ticketsystem.promotion.web.rest.TestUtil.sameNumber;
+import static com.ridehub.promotion.domain.PercentOffTotalAsserts.*;
+import static com.ridehub.promotion.web.rest.TestUtil.createUpdateProxyForBean;
+import static com.ridehub.promotion.web.rest.TestUtil.sameNumber;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasItem;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
@@ -10,12 +10,12 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ticketsystem.promotion.IntegrationTest;
-import com.ticketsystem.promotion.domain.PercentOffTotal;
-import com.ticketsystem.promotion.domain.Promotion;
-import com.ticketsystem.promotion.repository.PercentOffTotalRepository;
-import com.ticketsystem.promotion.service.dto.PercentOffTotalDTO;
-import com.ticketsystem.promotion.service.mapper.PercentOffTotalMapper;
+import com.ridehub.promotion.IntegrationTest;
+import com.ridehub.promotion.domain.PercentOffTotal;
+import com.ridehub.promotion.domain.Promotion;
+import com.ridehub.promotion.repository.PercentOffTotalRepository;
+import com.ridehub.promotion.service.dto.PercentOffTotalDTO;
+import com.ridehub.promotion.service.mapper.PercentOffTotalMapper;
 import jakarta.persistence.EntityManager;
 import java.math.BigDecimal;
 import java.time.Instant;

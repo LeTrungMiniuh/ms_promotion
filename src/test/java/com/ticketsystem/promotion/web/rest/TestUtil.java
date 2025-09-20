@@ -1,4 +1,4 @@
-package com.ticketsystem.promotion.web.rest;
+package com.ridehub.promotion.web.rest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

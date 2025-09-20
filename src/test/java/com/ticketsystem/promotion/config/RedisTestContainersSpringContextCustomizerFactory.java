@@ -1,4 +1,4 @@
-package com.ticketsystem.promotion.config;
+package com.ridehub.promotion.config;
 
 import java.util.List;
 import org.slf4j.Logger;

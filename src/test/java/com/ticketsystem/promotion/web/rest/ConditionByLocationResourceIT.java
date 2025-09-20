@@ -1,7 +1,7 @@
-package com.ticketsystem.promotion.web.rest;
+package com.ridehub.promotion.web.rest;
 
-import static com.ticketsystem.promotion.domain.ConditionByLocationAsserts.*;
-import static com.ticketsystem.promotion.web.rest.TestUtil.createUpdateProxyForBean;
+import static com.ridehub.promotion.domain.ConditionByLocationAsserts.*;
+import static com.ridehub.promotion.web.rest.TestUtil.createUpdateProxyForBean;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasItem;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
@@ -9,12 +9,12 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ticketsystem.promotion.IntegrationTest;
-import com.ticketsystem.promotion.domain.ConditionByLocation;
-import com.ticketsystem.promotion.domain.Promotion;
-import com.ticketsystem.promotion.repository.ConditionByLocationRepository;
-import com.ticketsystem.promotion.service.dto.ConditionByLocationDTO;
-import com.ticketsystem.promotion.service.mapper.ConditionByLocationMapper;
+import com.ridehub.promotion.IntegrationTest;
+import com.ridehub.promotion.domain.ConditionByLocation;
+import com.ridehub.promotion.domain.Promotion;
+import com.ridehub.promotion.repository.ConditionByLocationRepository;
+import com.ridehub.promotion.service.dto.ConditionByLocationDTO;
+import com.ridehub.promotion.service.mapper.ConditionByLocationMapper;
 import jakarta.persistence.EntityManager;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;

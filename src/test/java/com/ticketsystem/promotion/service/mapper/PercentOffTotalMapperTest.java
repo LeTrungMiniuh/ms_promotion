@@ -1,7 +1,7 @@
-package com.ticketsystem.promotion.service.mapper;
+package com.ridehub.promotion.service.mapper;
 
-import static com.ticketsystem.promotion.domain.PercentOffTotalAsserts.*;
-import static com.ticketsystem.promotion.domain.PercentOffTotalTestSamples.*;
+import static com.ridehub.promotion.domain.PercentOffTotalAsserts.*;
+import static com.ridehub.promotion.domain.PercentOffTotalTestSamples.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

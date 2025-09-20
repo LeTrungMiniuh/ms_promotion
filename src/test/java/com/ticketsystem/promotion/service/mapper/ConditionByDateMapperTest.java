@@ -1,7 +1,7 @@
-package com.ticketsystem.promotion.service.mapper;
+package com.ridehub.promotion.service.mapper;
 
-import static com.ticketsystem.promotion.domain.ConditionByDateAsserts.*;
-import static com.ticketsystem.promotion.domain.ConditionByDateTestSamples.*;
+import static com.ridehub.promotion.domain.ConditionByDateAsserts.*;
+import static com.ridehub.promotion.domain.ConditionByDateTestSamples.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

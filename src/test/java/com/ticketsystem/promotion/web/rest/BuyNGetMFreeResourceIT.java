@@ -1,7 +1,7 @@
-package com.ticketsystem.promotion.web.rest;
+package com.ridehub.promotion.web.rest;
 
-import static com.ticketsystem.promotion.domain.BuyNGetMFreeAsserts.*;
-import static com.ticketsystem.promotion.web.rest.TestUtil.createUpdateProxyForBean;
+import static com.ridehub.promotion.domain.BuyNGetMFreeAsserts.*;
+import static com.ridehub.promotion.web.rest.TestUtil.createUpdateProxyForBean;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasItem;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
@@ -9,12 +9,12 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ticketsystem.promotion.IntegrationTest;
-import com.ticketsystem.promotion.domain.BuyNGetMFree;
-import com.ticketsystem.promotion.domain.Promotion;
-import com.ticketsystem.promotion.repository.BuyNGetMFreeRepository;
-import com.ticketsystem.promotion.service.dto.BuyNGetMFreeDTO;
-import com.ticketsystem.promotion.service.mapper.BuyNGetMFreeMapper;
+import com.ridehub.promotion.IntegrationTest;
+import com.ridehub.promotion.domain.BuyNGetMFree;
+import com.ridehub.promotion.domain.Promotion;
+import com.ridehub.promotion.repository.BuyNGetMFreeRepository;
+import com.ridehub.promotion.service.dto.BuyNGetMFreeDTO;
+import com.ridehub.promotion.service.mapper.BuyNGetMFreeMapper;
 import jakarta.persistence.EntityManager;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
